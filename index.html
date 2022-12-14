@@ -23,6 +23,9 @@
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/994336f2c8.js" crossorigin="anonymous"></script>
   
+  <!--google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600&display=swap" rel="stylesheet">
+  
   <!--favicon-->
   <link rel="shortcut icon" type="image/x-icon" href="img/img.png">
   
@@ -30,6 +33,43 @@
 
 </head>
 <body>
+  <!--header start-->
+  <header class="header padding">
+    <div class="header__logo">
+      <img src="../img/logo.png.webp" alt="">
+    </div>
+    
+    <input type="checkbox" name="checkbox" id="checkbox">
+    <label class="check" for="checkbox">
+      <i class="fa-solid fa-bars"></i>
+     </label>
+    
+    <nav class="header__nav">
+      <ul class="nav__ul">
+        <li class="nav__li"><a class="nav__a" href="#">Home</a></li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">Dropdown››</a>
+          <ul class="sub__ul">
+            <li class="sub__li"><a class="nav__a" href="#">Menu One</a></li>
+            <li class="sub__li">
+              <a class="nav__a" href="#">Menu Two››</a>
+              <ul class="sub__ul2">
+                <li class="sub__li"><a class="nav__a" href="#">Sub Menu One</a></li>
+                <li class="sub__li"><a class="nav__a" href="#">Sub Menu Two</a></li>
+                <li class="sub__li"><a class="nav__a" href="#">Sub Menu Three</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__li"><a class="nav__a" href="#">About</a></li>
+        <li class="nav__li"><a class="nav__a" href="#">Services</a></li>
+        <li class="nav__li"><a class="nav__a" href="#">FAQ</a></li>
+        <li class="nav__li"><a class="nav__a" href="#">Contact Us</a></li>
+        <li class="nav__li"><a class="nav__btn btn">Download Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--header end-->
   
 </body>
 </html>
