@@ -1,9 +1,10 @@
 /* common code start */
 .padding{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 50px 5%;
 }
-
+[class*="col-"] {
+  padding: 0px;
+}
 /* common code end */
 
 
@@ -17,27 +18,30 @@
 .check{
   display: block;
   font-size: 22px;
-  transition: all .2s linear;
+  transition: all .3s linear;
+}
+.header{
+  padding: 15px 5%;
 }
 .header__nav{
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   transition: all .3s linear;
   width: 230px;
   height: 100vh;
   box-shadow: 3px 3px 30px #DDDDDD;
-  
+  z-index: 1;
 }
 .nav__ul{
   background: #FFFFFF;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px; 
-  
+  padding: 20px;
+  height: 100vh
 }
 .nav__li{
   position: relative;
@@ -77,6 +81,7 @@
   border-radius: none;
   margin: 0;
   display: block;
+  font-size: 14px;
 }
 .nav__btn:hover{
   color: #000000;
@@ -84,3 +89,17 @@
   background: none;
 }
 /* header end */
+.feature__head{
+  padding: 0
+}
+.feature__p{
+  padding: 10px 15px
+}
+.feature__box{
+  padding: 30px;
+
+}
+.box__p{
+  padding: 5px 0;
+  font-size: 14px;
+}
