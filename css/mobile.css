@@ -108,3 +108,12 @@
   font-size: 14px;
   line-height: 20px
 }
+.testimonials__p{
+  padding: 10px 0;
+}
+.testimonials__slider{
+  width: 370px;
+}
+.testimonials__slides{
+  margin: 0;
+}
