@@ -295,7 +295,7 @@
 /* testimonials start */
 .testimonials{
   text-align: center;
-  background: #CCCCCC
+  background: #F6F6F6
 }
 .testimonials__head{
   padding: 50px 0;
@@ -389,6 +389,9 @@
   width: 370px;
   margin: 0 5px;
 }
+.testimonials__slides:hover{
+  border: 1px solid #838383;
+}
 .slider__p{
   padding: 20px 0;
   font-size: 18px;
@@ -419,3 +422,53 @@
   color: #A0A0A0
 }
 /* testimonials end */
+
+
+/* footer start */
+.footer__h3{
+  font-size: 18px;
+  padding: 10px 0;
+}
+.footer__p{
+  padding-top: 5px;
+  font-size: 14px;
+  color: #808080;
+  line-height: 30px;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #808080;
+  display: block;
+  line-height: 25px;
+  text-transform: capitalize;
+  padding: 0;
+  cursor: pointer;
+}
+.contract a{
+  display: inline;
+  padding: 0 15px
+}
+.contract i{
+  color: #808080;
+  font-size: 14px;
+}
+.footer__copy{
+  bottom: 0;
+  background: #F3F3F3;
+  border-top: 1px solid #D4D4D4;
+}
+.footer__copy p{
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #808080;
+  line-height: 30px;
+}
+.footer__copy a{
+  display: inline;
+}
+.footer{
+  padding-bottom: 0;
+}
+/* footer end */
