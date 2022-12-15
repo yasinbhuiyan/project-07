@@ -20,10 +20,11 @@
   background: #070061;
   color: #FFFFFF;
   font-weight: normal;
-  padding: 12px 30px;
+  padding: 10px 20px;
   border-radius: 30px;
   text-transform: capitalize;
   font-size: 14px;
+  margin: 10px;
 }
 .btn:hover{
   color: #000000;
@@ -36,7 +37,7 @@
   background: none;
   color: #000000;
   font-weight: normal;
-  padding: 12px 25px;
+  padding: 10px 20px;
   border-radius: 30px;
   text-transform: capitalize;
   font-size: 14px;
@@ -157,9 +158,6 @@
   font-size: 14px;
   color: #808080;
   line-height: 20px;
-}
-.home__btn{
-  margin-right: 10px;
 }
 .home__button{
   padding: 20px 0
@@ -306,6 +304,7 @@
   padding: 10px 0
 }
 .testimonials__slider{
+  margin: 0 auto;
   width: 760px;
   overflow: hidden;
   border-radius: 7px;

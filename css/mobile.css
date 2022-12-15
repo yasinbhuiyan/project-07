@@ -1,6 +1,6 @@
 /* common code start */
 .padding{
-  padding: 50px 5%;
+  padding: 20px 5%;
 }
 [class*="col-"] {
   padding-left: 0;
