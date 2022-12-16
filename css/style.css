@@ -428,6 +428,9 @@
   font-size: 18px;
   padding: 10px 0;
 }
+.footer__section{
+  height: 200px;
+}
 .footer__p{
   padding-top: 5px;
   font-size: 14px;
