@@ -11,6 +11,12 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.testimonials__p{
+  padding: 10px 0;
+}
 .testimonials__slider{
-  max-width: 370px;
+  width: 370px;
+}
+.testimonials__slides{
+  margin: 0;
 }

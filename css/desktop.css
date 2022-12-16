@@ -10,3 +10,15 @@
   .col-l-10 {width: 83.33%;}
   .col-l-11 {width: 91.66%;}
   .col-l-12 {width: 100%;}
+  
+
+.testimonials__p{
+  padding: 10px 10%;
+}
+.testimonials__slider{
+  width: 760px;
+}
+.testimonials__slides{
+  margin: 5px;
+  width: 370px;
+}
