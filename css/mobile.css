@@ -110,10 +110,19 @@
 }
 .testimonials__p{
   padding: 10px 0;
+  font-size: 14px
 }
 .testimonials__slider{
   width: 370px;
 }
 .testimonials__slides{
   margin: 0;
+}
+
+.copy__p{
+  font-size: 14px
+
+}
+.feature__p{
+  font-size: 14px
 }
