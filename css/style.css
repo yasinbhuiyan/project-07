@@ -92,7 +92,7 @@
   list-style: none;
 }
 .nav__li{
-  font-size: 10px;
+  font-size: 12px;
 }
 .sub__ul{
   position: absolute;
@@ -456,19 +456,18 @@
   bottom: 0;
   background: #F3F3F3;
   border-top: 1px solid #D4D4D4;
+  font-size: 12px;
 }
 .copy__p{
   text-align: center;
   padding: 15px;
-  font-size: 10px;
+  font-size: 12px;
   color: #808080;
-  line-height: 18px;
 }
-.footer__copy a{
+.copy__p a{
   display: inline;
-  font-size: 10px;
-  color: #808080;
-  line-height: 18px;
+  color: #6A77FF;
+  font-size: 12px;
 }
 .footer{
   padding-bottom: 0;
