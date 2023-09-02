@@ -132,7 +132,9 @@
 .nav__btn{
   color: #E59406;
   margin-left: 10px;
-
+}
+.nav__closer{
+  display: none;
 }
 /* header end */
 
